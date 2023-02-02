@@ -1,0 +1,32 @@
+{
+  "name": "@tosee/iextractor",
+  "version": "1.0.0",
+  "description": "Extract Typescript class interface",
+  "main": "dist/iet.js",
+  "bin": "dist/iet.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist&&tsc||true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackoverflow/iextractor.git"
+  },
+  "keywords": [
+    "Typescript",
+    "interface",
+    "class"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackoverflow/iextractor/issues"
+  },
+  "homepage": "https://github.com/fullstackoverflow/iextractor#readme",
+  "dependencies": {
+    "clipanion": "^3.2.0-rc.14",
+    "ts-morph": "^17.0.1"
+  }
+}
