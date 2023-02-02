@@ -14,7 +14,7 @@ npm install -g @tosee/iextractor
 命令行使用方法如下：
 
 ```
-iextractor [--pack] [--force] <input> <output>
+iet [--pack] [--force] <input> <output>
 ```
 选项说明：
 
