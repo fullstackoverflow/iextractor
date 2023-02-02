@@ -2,14 +2,16 @@
   "name": "@tosee/iextractor",
   "version": "1.0.0",
   "description": "Extract Typescript class interface",
-  "main": "dist/iet.js",
-  "bin": "dist/iet.js",
+  "main": "dist/index.js",
+  "bin": {
+    "iet": "dist/index.js"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "rm -rf ./dist&&tsc||true",
-    "publish":"npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",

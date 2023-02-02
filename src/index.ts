@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { existsSync, mkdirSync, statSync, readdirSync } from 'fs';
 import { relative, join } from 'path';
 import { Command, Option, runExit, UsageError } from 'clipanion';
