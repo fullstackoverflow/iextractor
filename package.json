@@ -1,6 +1,6 @@
 {
   "name": "@tosee/iextractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract Typescript class interface",
   "main": "dist/index.js",
   "bin": {
