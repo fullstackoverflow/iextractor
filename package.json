@@ -30,6 +30,6 @@
   "homepage": "https://github.com/fullstackoverflow/iextractor#readme",
   "dependencies": {
     "clipanion": "^3.2.0-rc.14",
-    "ts-morph": "^17.0.1"
+    "ts-morph": "^27.0.2"
   }
 }
